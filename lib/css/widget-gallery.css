@@ -32,6 +32,8 @@
     height: 100px;
 }
 
+
+
 .widget-gallery-roll
 {
     position: fixed;
@@ -39,8 +41,21 @@
     overflow: hidden;
     white-space: nowrap;
     z-index: 25;
-    bottom: 5%;
+    bottom: -25%;
 
+    -webkit-transition: all 0.8s ease-in-out;
+    -moz-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
+
+    opacity: 0;
+
+}
+
+.roll-visible
+{
+    bottom: 5%;
+    opacity: 1;
 }
 
 .widget-gallery-search
@@ -51,6 +66,16 @@
     bottom     : 25%;
     width      : 35%;
     white-space: nowrap;
+    opacity: 0;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.search-visible
+{
+    opacity: 1;
 }
 
 .widget-gallery-photo
