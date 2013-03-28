@@ -1,41 +1,31 @@
-<!doctype html>
-<html>
-  <head>
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Flickr-gallery-widget by jodaka</title>
+    <title>flickr gallery widget</title>
+    <meta name="description" content="lol">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="widget-gallery.min.css">
+</head>
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Flickr-gallery-widget</h1>
-        <p>basic gallery for searching and viewing images from flickr. Support touch events </p>
+<body class="widget-gallery">
 
-        <p class="view"><a href="https://github.com/jodaka/flickr-gallery-widget">View the Project on GitHub <small>jodaka/flickr-gallery-widget</small></a></p>
+    <div class="widget-gallery-photo"></div>
 
+    <div class="widget-gallery-search search-visible">
 
-        <ul>
-          <li><a href="https://github.com/jodaka/flickr-gallery-widget/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/jodaka/flickr-gallery-widget/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/jodaka/flickr-gallery-widget">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <p>this is a test. Yo</p>
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/jodaka">jodaka</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
+        <input class="widget-gallery-search-input" type="text" placeholder="search for beautiful images" /> <img class="widget-gallery-loading hidden" src="loading.gif" />
+
     </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
-  </body>
+
+    <div class="widget-gallery-preview">
+        <div class="widget-gallery-imgbig opacity-transition"></div>
+    </div>
+
+    <div class="widget-gallery-roll">
+    </div>
+
+    <script src="widget-gallery.concat.js"></script>
+
+</body>
 </html>
