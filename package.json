@@ -1,19 +1,17 @@
 {
   "name": "widget-gallery",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "devDependencies": {
-    "grunt": "^1.0.4",
-    "grunt-contrib-concat": "~1.0.1",
-    "grunt-contrib-jshint": "^2.1.0",
-    "grunt-contrib-uglify": "^4.0.1",
-    "grunt-contrib-watch": "^1.1.0",
-    "grunt-includes": "~1.1.0",
-    "grunt-shell": "~3.0.1",
-    "handlebars": "^4.2.0"
+    "grunt": "1.0.4",
+    "grunt-contrib-concat": "1.0.1",
+    "grunt-contrib-jshint": "2.1.0",
+    "grunt-contrib-uglify": "4.0.1",
+    "grunt-contrib-watch": "1.1.0",
+    "grunt-includes": "1.1.0",
+    "grunt-shell": "3.0.1",
+    "handlebars": "4.2.0",
+    "grunt-contrib-cssmin": "3.0.0"
   },
   "description": "gallery widget",
-  "keywords": [],
-  "dependencies": {
-    "grunt-contrib-cssmin": "^3.0.0"
-  }
+  "keywords": []
 }
